@@ -22,7 +22,6 @@ const TableHeader = (props: TableHeaderProps) => {
   const { handleFilter, value, handleTable } = props // Include handleTable
   const data = localStorage.getItem('userData') as string
   const getDataLocal = JSON.parse(data)
-  // ** Function to handle "Cek Pembayaran" button click
   const fetchPaymentTransactions = useCallback(async () => {
     try {
       const token = localStorage.getItem('token') // Retrieve the token from local storage

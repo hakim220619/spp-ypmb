@@ -24,7 +24,6 @@ const Register = () => {
   const [sekolahData, setSekolahData] = useState([]) // State untuk menyimpan data sekolah
   const [search, setSearch] = useState('')
   const [openModal, setOpenModal] = useState(false) // State untuk modal
-  const [templateName, setTemplateName] = useState<any>([])
 
   const router = useRouter()
 
